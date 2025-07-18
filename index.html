@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuj Kumar | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fdf6f0, #edf7ff);
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #0e4d64;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+    header h1:hover {
+      transform: scale(1.05);
+      color: #ffc107;
+    }
+    header p { font-size: 1.2em; color: #d1ecf1; }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #fff;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0e4d64;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #ff5722; }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0e4d64;
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #ccc;
+      display: inline-block;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 20px 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+    }
+    .skills span {
+      display: inline-block;
+      background: #e3f2fd;
+      padding: 8px 12px;
+      margin: 6px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+    footer {
+      background: linear-gradient(to right, #0e4d64, #013b4b);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ffc107;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .project-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      transition: transform 0.3s;
+    }
+    .project-img:hover { transform: scale(1.02); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Anuj Kumar</h1>
+  <p>Full-stack Developer | B.Tech CSE @ Amity University Chhattisgarh</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a passionate full-stack web developer with experience in Java, JavaScript, HTML, CSS, React, and PHP. I have a keen interest in innovation and problem-solving, demonstrated through national-level hackathons, internships, and leadership roles. I'm currently pursuing B.Tech CSE at Amity University Chhattisgarh (2023–2027).</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Java</span><span>JavaScript</span><span>React.js</span><span>Node.js</span><span>PHP</span><span>Python</span><span>HTML</span><span>CSS</span><span>MySQL</span><span>MongoDB</span><span>Git</span><span>Power BI</span><span>Android Studio</span><span>Azure</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Railway S&T Web Portal</h3>
+    <p>Developed a departmental website using PHP, HTML, CSS, and JavaScript. Hosted it locally using XAMPP and deployed internally via Railnet server. Built for Indian Railways (Raipur Division), improving Signal & Telecom data access.</p>
+  </div>
+  <div class="card">
+    <h3>Department of Posts – SIH 2024</h3>
+    <p>Built a full-stack digital solution to streamline postal services. Contributed to frontend and backend development in Team Data_Jargons during the Smart India Hackathon 2024 Grand Finale at Chennai.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience & Recognition</h2>
+  <div class="card">
+    <h3>Vocational Internship – Indian Railways</h3>
+    <p>Worked with S&T Department in Raipur Division (June–July 2025). Learned real-world public sector IT systems and network deployment.</p>
+  </div>
+  <div class="card">
+    <h3>Event Manager – Ezz Learn</h3>
+    <p>Managed event logistics, handled team coordination and resolved issues effectively. (July 2024)</p>
+  </div>
+  <div class="card">
+    <h3>Achievements</h3>
+    <ul>
+      <li>1st Runner-Up – Smart India Hackathon 2024</li>
+      <li>Winner – Internal SIH 2024</li>
+      <li>President – Codician Club (Led events and mentoring)</li>
+      <li>National-level Badminton Player – Represented Chhattisgarh</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: anujjha131@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/anujjkumarjha">github.com/anujjkumarjha</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/anuj-kumar-37345527b">linkedin.com/in/anuj-kumar-37345527b</a></p>
+    <p>Phone: +91 6266904340</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Anuj Kumar | <a href="#">Back to top</a></p>
+</footer>
+
+</body>
+</html>
+
